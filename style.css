@@ -1,0 +1,245 @@
+
+/*designed by: Muhammad wasi */
+
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+body{
+    height: 100%;
+    background-color: black;
+    box-sizing: border-box;
+}
+h1{
+    color: white;
+    font-size: 3rem;
+    font-weight: 50;
+    text-align: center;
+    margin: 1rem 0  3rem;
+    font-family: 'Hind',sans-serif;
+}
+.title{
+    color: lime;
+    text-transform: uppercase;
+    font-weight: 600;
+}
+.inputDiv{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.input{
+    padding: 0.5rem 1rem;
+    outline: none;
+    border: none;
+    border-radius: 25px;
+    width: 350px;
+    margin: 0.25rem;
+    transition: 0.5s;
+    font-size: 1.15rem;
+}
+.add{
+    outline: none;
+    border: none;
+    border-radius: 25px;
+    height: 50px;
+    width: 50px;
+    cursor: pointer;
+    transition: 0.5s;
+    margin: 0.25rem;
+    background-color: lime;
+    color: white;
+}
+.add:hover{
+    opacity: 0.7;
+}
+.trash{
+    outline: none;
+    border: none;
+    border-radius: 25px;
+    height: 50px;
+    width: 50px;
+    background-color: lime;
+    color: white;
+    margin: 0.25rem;
+    cursor: pointer;
+    transition: 0.5s;
+}
+.trash:hover{
+    opacity: 0.7;
+}
+.container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+  
+}
+.item{
+    padding: 0.5rem;
+    margin-bottom: 1.5rem;
+    border-bottom: 4px solid #fff;
+}
+.item_input{
+    background: none;
+    color: #fff;
+    outline: none;
+    border: none;
+    width: 350px;
+    font-size: 1.4rem;
+
+}
+.edit{
+	background: none;
+	outline: none;
+	border: none;
+	color: lime;
+	font-size: 1.4rem;
+	font-family: 'Hind', sans-serif;
+	margin: 0 0.5rem;
+	cursor: pointer;
+}
+
+.delete{
+	background: none;
+	outline: none;
+	border: none;
+	color: #E00;
+	font-size: 1.4rem;
+	font-family: 'Hind', sans-serif;
+	cursor: pointer;
+}
+#list{
+    font-size: 1.4rem;
+    color: white;
+    font-family: 'Hind', sans-serif;
+    justify-content: center;
+    align-items: center;
+}
+.end{
+    margin-top: 15rem;
+    font-size: 28px;
+    color: white;
+    font-family: 'Hind',sans-serif;
+    text-align: center;
+    -webkit-animation: end 0.5s ease-in-out infinite alternate;
+    -moz-animation: end 0.5s ease-in-out infinite alternate;
+    animation: end 0.5s ease-in-out infinite alternate;
+}
+@-webkit-keyframes end{
+    from{
+        text-shadow: 0 0 10px #fff, 0 0 20px #fff, 0 0 30px lime, 0 0 40px lime,0 0 50px
+        lime, 0 0 60px, 0 0 70px lime; 
+    }
+    top{
+        text-shadow: 0 0 10px #fff, 0 0 20px  lime, 0 0 30px lime, 0 0 40px lime,0 0 50px
+        lime, 0 0 60px, 0 0 70px lime; 
+    }
+}
+
+@media only screen and (max-width: 568px){
+    .add{
+        width: 49px;
+        height: 32px;
+    }
+    .trash{
+        width: 49px;
+        height: 32px;
+    }
+    .edit{
+        font-size: 1rem;
+    }
+    .delete{
+        font-size: 1rem;
+    }
+    #list{
+        font-size: 1rem;
+    }
+}
+
+@media only screen and (max-width: 640px){
+    .add{
+        width: 50px;
+        height: 35px;
+    }
+    .trash{
+        width: 50px;
+        height: 35px;
+    }
+    .edit{
+        font-size: 1.1rem;
+    }
+    .delete{
+        font-size: 1.1rem;
+    }
+    #list{
+        font-size: 1.1rem;
+    }
+}
+@media only screen and (max-width: 640px){
+    .add{
+        width: 40px;
+        height: 40px;
+    }
+    .trash{
+        width: 40px;
+        height: 40px;
+    }
+}
+@media only screen and (min-width: 400px) and(max-width: 700px){
+    .add{
+        width: 45px;
+        height: 45px;
+    }
+    .trash{
+        width: 40px;
+        height: 35px;
+    }
+}
+@media only screen and (max-width: 711px){
+    .add{
+        width: 45px;
+        height: 40px;
+    }
+    .trash{
+        width: 45px;
+        height: 40px;
+    }
+}
+
+@media only screen and (max-width: 568px){
+    .add{
+        width: 45px;
+        height: 30px;
+    }
+    .trash{
+        width: 45px;
+        height: 30px;
+    }
+}
+@media only screen and (min-width: 1366px){
+    .add{
+        width: 50px;
+        height: 50px;
+    }
+    .trash{
+        width: 50px;
+        height: 50px;
+    }
+}
+@media only screen and(max-width: 695px){
+    .add{
+        width: 45px;
+        height: 45px;
+    }
+    .trash{
+        width: 45px;
+        height: 45px;
+    }
+}
+
+
+
+
